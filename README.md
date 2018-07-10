@@ -1,23 +1,23 @@
-#Ruby Cheat Sheet
+# Ruby Cheat Sheet
 ---
-###Variable
+### Variable
 A value saved to a specific name
 Eg. name = "John"
 
-###Types
+### Types
 String = "" - A string of text
 Integer = 1 - A numerical value
 Symbols = :name - An immutable object (single reference object)
 Object = {} - Something that can contain more data
 
-###Method
+### Method
 A self created process to do something. Can take multiple parameters but not required.
 Eg.
 def thing(parameter1, parameter2)
     parameter1 + parameter2
 end
 
-###Class
+### Class
 An object. Can contain sub methods. Can inherit from other classes
 Eg.
 class Animal 
@@ -32,7 +32,7 @@ class Dog < Animal
     end
 end
 
-###Loops
+### Loops
 There are different types of loops:
 -FOR
     for i in 1..1000
@@ -56,12 +56,12 @@ There are different types of loops:
         #code
     end
 
-###Hashes
+### Hashes
 Key value pairs. Used for storing data against a specific key
 Eg.
 {"name" => "age"}
 
-###Arrays
+### Arrays
 A range of values stored against a single variable name. Arrays can store ANYTHING! Strings, integers, symbols, objects.
 E.g
 random_array = [1, "hello", :dave, {}]
